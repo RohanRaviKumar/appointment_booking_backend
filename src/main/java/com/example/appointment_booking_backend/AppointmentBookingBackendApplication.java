@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-//@RestController
+@RestController
 public class AppointmentBookingBackendApplication {
 
 	public static void main(String[] args) {
@@ -17,9 +17,9 @@ public class AppointmentBookingBackendApplication {
         s.print();
 	}
 
-//    @RequestMapping("/")
-//    public String hello() {
-//        return "Hello World";
-//    }
+    @RequestMapping("/")
+    public String hello() {
+        return "Hello World";
+    }
 
 }
