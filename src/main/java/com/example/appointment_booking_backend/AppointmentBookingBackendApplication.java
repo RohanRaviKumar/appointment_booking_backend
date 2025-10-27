@@ -19,7 +19,7 @@ public class AppointmentBookingBackendApplication {
 
     @RequestMapping("/")
     public String hello() {
-        return "Hello World";
+        return "This is a sample message";
     }
 
 }
