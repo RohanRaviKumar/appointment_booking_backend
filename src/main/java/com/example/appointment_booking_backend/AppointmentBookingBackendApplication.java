@@ -14,7 +14,6 @@ public class AppointmentBookingBackendApplication {
 
         ApplicationContext context = SpringApplication.run(AppointmentBookingBackendApplication.class, args);
         Sample s = context.getBean(Sample.class);
-        s.print();
 	}
 
     @RequestMapping("/")
